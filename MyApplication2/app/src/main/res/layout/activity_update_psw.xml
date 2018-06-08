@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    tools:context="com.example.administrator.myapplication.UpdatePswActivity">
+
+    <EditText
+        android:id="@+id/edt_names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/edt_newPsw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edt_names"
+        android:layout_alignStart="@+id/edt_names"
+        android:layout_below="@+id/edt_names"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="请输入新的密码"
+        android:inputType="textPassword"
+        android:textAllCaps="true"
+        android:textStyle="bold|italic" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        android:text="修改密码" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/autoCompleteTextView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/autoCompleteTextView2"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/lll"
+        android:text="确认修改" />
+</RelativeLayout>

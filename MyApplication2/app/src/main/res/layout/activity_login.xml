@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a7"
+    tools:context="com.example.administrator.myapplication.LoginActivity">
+
+    <CheckBox
+        android:id="@+id/login_rememberpassword2"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:layout_alignEnd="@+id/btn_login"
+        android:layout_alignRight="@+id/btn_login"
+        android:layout_below="@+id/edt_psw"
+        android:layout_marginTop="25dp"
+        android:text="@string/remanberPassword" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="162dp"
+        android:layout_toLeftOf="@+id/tet_register"
+        android:layout_toStartOf="@+id/tet_register"
+        android:text="@string/username"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <EditText
+        android:id="@+id/edt_names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/tet_register"
+        android:layout_alignStart="@+id/tet_register"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/edt_names"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/password"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_psw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/edt_names"
+        android:layout_alignStart="@+id/edt_names"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_rememberpassword2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="@android:drawable/ic_lock_power_off"
+        android:text="@string/btn_login" />
+
+    <TextView
+        android:id="@+id/tet_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:text="@string/registerUser"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

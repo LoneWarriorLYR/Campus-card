@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b">
+
+    <Button
+        android:id="@+id/btn_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/c1" />
+
+    <Button
+        android:id="@+id/btn_updateInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_setting"
+        android:layout_alignStart="@+id/btn_setting"
+        android:layout_centerVertical="true"
+        android:background="@drawable/c6" />
+
+    <Button
+        android:id="@+id/btn_school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_setting"
+        android:layout_alignBottom="@+id/btn_setting"
+        android:layout_alignLeft="@+id/btn_lock"
+        android:layout_alignStart="@+id/btn_lock"
+        android:background="@drawable/c8" />
+
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_edtPsw"
+        android:layout_alignBottom="@+id/btn_edtPsw"
+        android:layout_alignLeft="@+id/btn_unlock"
+        android:layout_alignStart="@+id/btn_unlock"
+        android:background="@drawable/c9" />
+
+    <Button
+        android:id="@+id/btn_edtPsw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_chongzhi"
+        android:layout_alignStart="@+id/btn_chongzhi"
+        android:layout_below="@+id/textView12"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/c7" />
+
+    <Button
+        android:id="@+id/btn_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_account"
+        android:layout_alignBottom="@+id/btn_account"
+        android:layout_alignEnd="@+id/btn_xiaofei"
+        android:layout_alignRight="@+id/btn_xiaofei"
+        android:background="@drawable/c2" />
+
+    <Button
+        android:id="@+id/btn_chongzhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_account"
+        android:layout_alignRight="@+id/btn_account"
+        android:layout_centerVertical="true"
+        android:background="@drawable/c4" />
+
+    <Button
+        android:id="@+id/btn_xiaofei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_chongzhi"
+        android:layout_alignBottom="@+id/btn_chongzhi"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/c5" />
+
+    <Button
+        android:id="@+id/btn_unlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_lock"
+        android:layout_alignBottom="@+id/btn_lock"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/c3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_account"
+        android:layout_alignRight="@+id/btn_account"
+        android:layout_below="@+id/btn_account"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:text="@string/text_info"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_lock"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_lock"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_unlock"
+        android:layout_alignRight="@+id/btn_unlock"
+        android:layout_below="@+id/btn_unlock"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:text="@string/text_unlock"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_below="@+id/btn_chongzhi"
+        android:text="@string/text_recharge"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView10"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_below="@+id/btn_xiaofei"
+        android:text="@string/text_record"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_below="@+id/btn_updateInfo"
+        android:text="@string/text_updateInfo"
+        android:textAllCaps="false"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/btn_school"
+        android:text="@string/text_updatePsw"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_below="@+id/btn_school"
+        android:text="@string/text_school"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_below="@+id/btn_setting"
+        android:text="@string/text_seting"
+        android:textColor="@color/cardview_light_background" />
+
+</RelativeLayout>
